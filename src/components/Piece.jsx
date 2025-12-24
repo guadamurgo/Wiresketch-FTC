@@ -18,7 +18,7 @@ export default function Piece({ src, x = 0, y = 0, height = 100 }) {
       x={x}
       y={y}
       height={height}
-      width={(img.width / img.height) * height} // mantiene proporción
+      width={(img.width / img.height) * height} 
       draggable
     />
   );
